@@ -4,7 +4,8 @@ const pluginsList = [
   'cordova-plugin-device',
   'cordova-plugin-geolocation',
   'cordova-plugin-contacts',
-  'cordova-plugin-chrome-apps-sockets-tcp'
+  'cordova-plugin-chrome-apps-sockets-tcp',
+  'cordova-plugin-accountkit'
 ]
 
 exports.install = (Vue, options) => {
