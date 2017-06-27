@@ -1,12 +1,12 @@
 exports.install = function (Vue, options, cb) {
   document.addEventListener('deviceready', () => {
 
-    if (typeof org.apache.cordova.facebook.AccountKitPlugin === 'undefined') {
+    if (typeof net.justin_credible.cordova.SpinnerPlugin === 'undefined') {
       return cb(false)
     }
 
     // pass through the object
-    Vue.cordova.accountKit = org.apache.cordova.facebook.AccountKitPlugin
+    Vue.cordova.spinnerPlugin = net.justin_credible.cordova.SpinnerPlugin
 
     return cb(true)
 
